@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/papaleguas/esp/equilicua/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/papaleguas/esp/equilicua/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/papaleguas/esp/equilicua/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/papaleguas/esp/equilicua/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/papaleguas/esp/equilicua/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/papaleguas/esp/equilicua/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/papaleguas/esp/equilicua/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "/home/papaleguas/esp/equilicua/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/papaleguas/esp/equilicua/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/papaleguas/esp/equilicua/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

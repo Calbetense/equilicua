@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/papaleguas/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/papaleguas/esp/equilicua/build/bootloader",
+    "config_file":        "/home/papaleguas/esp/equilicua/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2-dev-1541-g5e436be77",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/papaleguas/esp/esp-idf/components/efuse/Kconfig;/home/papaleguas/esp/esp-idf/components/esp32/Kconfig;/home/papaleguas/esp/esp-idf/components/esp_common/Kconfig;/home/papaleguas/esp/esp-idf/components/log/Kconfig;/home/papaleguas/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/papaleguas/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/papaleguas/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/papaleguas/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/papaleguas/esp/esp-idf/components/bootloader", "/home/papaleguas/esp/esp-idf/components/bootloader_support", "/home/papaleguas/esp/esp-idf/components/efuse", "/home/papaleguas/esp/esp-idf/components/esp32", "/home/papaleguas/esp/esp-idf/components/esp_common", "/home/papaleguas/esp/esp-idf/components/esp_rom", "/home/papaleguas/esp/esp-idf/components/esptool_py", "/home/papaleguas/esp/esp-idf/components/log", "/home/papaleguas/esp/esp-idf/components/bootloader/subproject/main", "/home/papaleguas/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/papaleguas/esp/esp-idf/components/partition_table", "/home/papaleguas/esp/esp-idf/components/soc", "/home/papaleguas/esp/esp-idf/components/spi_flash", "/home/papaleguas/esp/esp-idf/components/xtensa", "" ]
+}
